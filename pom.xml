@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <!-- <scm>
+  <scm>
     <connection>scm:git:https://github.com/bdelic-grid/spring-petclinic.git</connection>
     <developerConnection>scm:git:https://github.com/bdelic-grid/spring-petclinic.git</developerConnection>
-    <url>https://github.com/bdelic-grid/spring-petclinic.git</url>
-    <tag>HEAD</tag>
-  </scm> -->
+    <url>https://github.com/bdelic-grid/spring-petclinic</url>
+    <tag>v4.0.1</tag>
+  </scm>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -18,19 +18,19 @@
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>4.0.1-SNAPSHOT</version>
+  <version>4.0.1</version>
 
   <name>petclinic</name>
 
   <properties>
 
     <!-- Generic properties -->
-    <java.version>17</java.version>
+    <java.version>23</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set
         -DnewVersion=... -->
-    <project.build.outputTimestamp>2025-01-28T10:51:27Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2025-01-28T11:18:31Z</project.build.outputTimestamp>
 
     <!-- Web dependencies -->
     <webjars-locator.version>1.0.1</webjars-locator.version>
@@ -471,7 +471,7 @@
     </profile>
   </profiles>
 
-  <scm>
+  <!-- <scm>
     <tag>v4.0.0</tag>
-  </scm>
+  </scm> -->
 </project>
